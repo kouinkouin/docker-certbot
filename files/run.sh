@@ -11,7 +11,7 @@ else
 
     if [ "$1" == 'certbot' -a -f $CONF_INI ]; then
         shift
-        exec certbot -i $CONF_INI --agree-tos $@
+        exec certbot -c $CONF_INI --agree-tos $@
     else
         exec $@
     fi
