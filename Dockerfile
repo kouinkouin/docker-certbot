@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/kouinkouin/docker/base
+FROM kouinkouin/debian-base
 
 ENV EMAIL=
 
