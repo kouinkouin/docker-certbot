@@ -1,4 +1,4 @@
-FROM kouinkouin/debian-base
+FROM kouinkouin/debian-base:10
 
 ENV EMAIL=
 
